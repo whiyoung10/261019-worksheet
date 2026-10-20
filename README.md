@@ -1,19 +1,21 @@
-# :earth_americas: GDP dashboard template
+# 십삼지신 수학 탐구 활동지
 
-A simple Streamlit app showing the GDP of different countries in the world.
+십삼지신 카드 게임을 활용해 카드의 규칙을 관찰하고, 승패를 실험하며, 나만의 전략을 설명하는 Streamlit 활동지입니다.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## 주요 기능
 
-### How to run it on your own machine
+- 카드 앞면과 색깔 뒷면을 살펴보는 카드 관찰
+- 게임 규칙과 카드별 승리 목록 작성
+- 두 카드 대결 결과 기록 및 전략 검증
+- 답안을 인쇄용 HTML 또는 이어쓰기용 JSON으로 저장
 
-1. Install the requirements
+## 실행 방법
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
 
-2. Run the app
+카드 그림은 참고 활동지 사이트에서 불러오므로, 이미지를 보려면 인터넷 연결이 필요합니다. 답안은 앱 세션에서 유지되며 다른 기기에서 이어 쓰려면 JSON 파일로 저장하세요.
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+참고 사이트는 별도 배포본입니다. 이 저장소의 변경 사항은 해당 사이트에 자동 배포되지 않습니다.
